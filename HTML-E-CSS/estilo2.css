@@ -25,6 +25,7 @@ body {
   background: rgb(17, 17, 65);
 }
 
+/******* Menu ******/
 #menu {
   background: rgb(17, 17, 65);
   text-align: center;
@@ -33,20 +34,38 @@ body {
 
 #menu a {
   padding: 20px;
-  background: rgb(47, 47, 88);
+  background: rgb(17, 17, 65);
   color: #ffffff;
   text-decoration: none;
 }
 
+#menu a:hover {
+  background: #01415a;
+  color: white;
+}
+
+/****** Conteudo *****/
 #conteudo {
   width: 85%;
   float: right;
-  background: rgb(119, 114, 114);
+  background: #8bb2c2;
 }
 
+#games {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.imagens-games {
+  padding: 25px;
+}
+
+/******** Rodape *********/
 #rodape {
   clear: both;
   color: white;
   background: rgb(17, 17, 65);
   padding: 5px;
+  text-align: center;
 }
