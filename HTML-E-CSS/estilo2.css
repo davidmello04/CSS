@@ -35,20 +35,20 @@ body {
 #menu a {
   padding: 20px;
   background: rgb(17, 17, 65);
-  color: #ffffff;
+  color: aqua;
   text-decoration: none;
 }
 
 #menu a:hover {
   background: #01415a;
-  color: white;
 }
 
 /****** Conteudo *****/
 #conteudo {
   width: 85%;
   float: right;
-  background: #8bb2c2;
+  background: #bbe1f0;
+  padding: 15px;
 }
 
 #games {
