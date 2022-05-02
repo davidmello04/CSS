@@ -14,7 +14,7 @@ body {
 #container {
   width: 90%;
   margin: 0 auto;
-  background: #ffffff;
+  background: rgb(17, 17, 65);
 }
 
 #logo {
@@ -59,6 +59,30 @@ body {
 
 .imagens-games {
   padding: 25px;
+}
+
+#lateral {
+  width: 13.2%;
+  float: left;
+}
+
+#lateral ul {
+  list-style-type: none;
+  background: aqua;
+  padding: 1px;
+}
+
+#lateral li a {
+  display: block;
+  text-decoration: none;
+  color: aqua;
+  margin: 2px;
+  padding: 10px;
+  background: rgb(17, 17, 65);
+}
+
+#lateral a:hover {
+  background: #01415a;
 }
 
 /******** Rodape *********/
