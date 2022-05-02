@@ -1,0 +1,52 @@
+/************
+Layouts */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet", Arial, Helvetica, sans-serif;
+  background: #01415a;
+}
+
+/***** Aréa Logo *****/
+#container {
+  width: 90%;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+#logo {
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 200px;
+  background: rgb(17, 17, 65);
+}
+
+#menu {
+  background: rgb(17, 17, 65);
+  text-align: center;
+  padding: 20px;
+}
+
+#menu a {
+  padding: 20px;
+  background: rgb(47, 47, 88);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#conteudo {
+  width: 85%;
+  float: right;
+  background: rgb(119, 114, 114);
+}
+
+#rodape {
+  clear: both;
+  color: white;
+  background: rgb(17, 17, 65);
+  padding: 5px;
+}
